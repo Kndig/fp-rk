@@ -1,6 +1,6 @@
 from functools import reduce
 
-s = reduce(lambda x, y: x+y for x in (lambda x: X % 3 == 0) or x % 5 == 0, list(range(1000))),))
+s = reduce((lambda x,y: x+y),[x for x in range(1000) if x % 3 == 0 or x % 5 ==0])
 print(s)
 
 #from functools import reduce
