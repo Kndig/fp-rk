@@ -1,0 +1,10 @@
+from functools import reduce
+
+s = reduce(lambda x, y: x+y for x in (lambda x: X % 3 == 0) or x % 5 == 0, list(range(1000))),))
+print(s)
+
+#from functools import reduce
+#m = list(range(1000))
+#l = filter(lambda x: x % 3 == 0 or x % 5 ==0 , m)
+#s = reduce(lambda x, y: x+y, l)
+#print(s)
