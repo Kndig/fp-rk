@@ -1,2 +1,3 @@
-3er = it.count(step=3)
-print(list(next(3er) for i in range(5)))
+from itertools import count
+dreir = count(step=3)
+print(list(next(dreir) for i in range(10)))
